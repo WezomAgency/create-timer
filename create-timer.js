@@ -4,7 +4,7 @@
  * Creating timers with internal closure
  * @module
  * @example
-import createTimer from './create-timer';
+import createTimer from 'create-timer';
 
 const timer = createTimer(500);
 $(window).on('resize', function () {
