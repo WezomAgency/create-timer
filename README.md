@@ -12,7 +12,7 @@
 ```js
 import createTimer from './create-timer';
 
-let timer = createTimer(500);
+const timer = createTimer(500);
 $(window).on('resize', function () {
     timer(() => {
         console.log('done');
