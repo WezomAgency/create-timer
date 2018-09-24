@@ -1,0 +1,25 @@
+{
+  "name": "create-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WezomAgency/create-timer.git"
+  },
+  "keywords": [
+  	"setTimeout",
+  	"clearTimeout",
+  	"closure",
+  	"currying"
+  ],
+  "author": "Oleg Dutchenko <dutchenko.o.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WezomAgency/create-timer/issues"
+  },
+  "homepage": "https://github.com/WezomAgency/create-timer#readme"
+}
