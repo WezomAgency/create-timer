@@ -26,16 +26,21 @@ timer.clear();
 // ----------------------------------------
 
 /**
+ * @typedef {Function} timer
+ */
+
+/**
  * @param {number} [defaultDelay=300]
- * @return {Function}
+ * @return {timer}
  */
 function createTimer (defaultDelay = 300) {
 	let timeoutId = null;
 
 	/**
+	 * @type {timer}
 	 * @param {Function} fn
 	 * @param {number} [delay=defaultDelay]
-	 * @prop {Function} clear
+	 * @returns {number} timeoutId
 	 */
 	function timer (fn, delay = defaultDelay) {
 		window.clearTimeout(timeoutId);
@@ -43,7 +48,11 @@ function createTimer (defaultDelay = 300) {
 		return timeoutId;
 	}
 
-	/** clear current timeout */
+	/**
+	 * clear current timeout
+	 * @methodOf timer
+	 * @returns void
+	 */
 	timer.clear = () => window.clearTimeout(timeoutId);
 
 	return timer;
