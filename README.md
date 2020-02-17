@@ -1,7 +1,7 @@
 # createTimer
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dutchenkoOleg/node-w3c-validator/blob/master/LICENSE)
-![ES6](https://img.shields.io/badge/JavaScript-ES6-blue.svg)
+![types](https://img.shields.io/badge/types-TypeScript-blue)
 
 > Creating timers with internal closure
 
